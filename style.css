@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Cool;
+    src: url("/fonts/Coiny-Regular.ttf");
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Cool, sans-serif;
+    font-size: 1.8rem;
+}
+
+
+
+label{
+    font-size: 1.6rem;
+}
+
+#tag{
+    margin-top: -10px;
+}
+
+#numInput{
+    text-align: center;
+    border-radius: 9px;
+    width: 100px;
+    font-family: Cool,sans-serif;
+    font-size: 1.5rem;
+}
+
+button{
+    color: rgb(241, 241, 241);
+    background-color: hsl(197, 93%, 49%);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 35px;
+    font-family: Cool, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(202, 93%, 49%);
+}
+
+button:active{
+    filter: brightness(1.1);
+}
+
+#diceResult{
+    font-size: 1.5rem;
+    margin: 30px 0 10px 0;
+}
+
+#diceImages img{
+    width: 200px;
+    margin: 20px;
+}
